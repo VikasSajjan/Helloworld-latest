@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git_Clone') {
+            steps {
+                echo 'This is to clone the code'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'this is to build the code'
+            }
+        }
+        stage('test'){
+            steps {
+                echo 'this is to test the code'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'this is to deploy hello World'
+            }
+        }
+        
+    }
+}

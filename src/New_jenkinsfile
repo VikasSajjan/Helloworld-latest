@@ -1,30 +1,30 @@
 pipeline {
     agent any
+    
+    tools {
+       maven 'maven3'
+       jdk 'java11'
+  }
 
     stages {
-        stage('git_Clone') {
+        stage('git clone') {
             steps {
-                echo 'This is to clone the code'
-                git 'https://github.com/VikasSajjan/Helloworld-latest.git'
+                git 'https://github.com/Tejus003/simple-java-maven-app.git'
             }
         }
-        stage('build') {
+        stage('Compile') {
             steps {
-                echo 'this is to build the code'
-                sh 'yum install maven -y'
-                sh 'mvn clean package'
+                sh "mvn compile"
             }
         }
-        stage('test'){
+        stage('Test') {
             steps {
-                echo 'this is to test the code'
+                sh "mvn test"
             }
         }
-        stage('deploy') {
+        stage('Build App') {
             steps {
-                echo 'this is to deploy hello World'
+                sh "mvn clean package"
             }
         }
-        
-    }
 }

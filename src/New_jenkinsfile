@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git 'https://github.com/Tejus003/simple-java-maven-app.git'
+                git 'https://github.com/VikasSajjan/Helloworld-latest.git'
             }
         }
         stage('Compile') {

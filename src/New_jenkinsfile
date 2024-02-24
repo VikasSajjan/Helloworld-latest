@@ -5,11 +5,13 @@ pipeline {
         stage('git_Clone') {
             steps {
                 echo 'This is to clone the code'
+                git 'https://github.com/VikasSajjan/Helloworld-latest.git'
             }
         }
         stage('build') {
             steps {
                 echo 'this is to build the code'
+                sh 'mvn clean package'
             }
         }
         stage('test'){

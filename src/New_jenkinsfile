@@ -11,6 +11,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'this is to build the code'
+                sh 'yum install maven -y'
                 sh 'mvn clean package'
             }
         }

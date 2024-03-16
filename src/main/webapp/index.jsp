@@ -12,7 +12,11 @@
   border-bottom: 3px dashed Green; /* Blue border on the bottom side */
   border-left: 2px dashed blue;
   text-align: center;
+  
   }
+h1{
+background-color: green;
+}
 </style>
 </head>
 <body>

@@ -15,8 +15,8 @@
 </style>
 </head>
 <body>
-<h1>Welcome  to VikasBenki House </h1>
-<p>Welcome  to My Training.</p>
+<h1>hello SuchiClean</h1>
+<p>Mane Suchi yagiddare manasu suchiyagirutte.</p>
 </body>
 </html>
 

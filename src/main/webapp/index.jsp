@@ -10,7 +10,7 @@
     border-top: 1px solid Blue; /* Blue border on the top side */
   border-right: 2px dashed Red; /* Dashed, 2px width, dark blue color on the right side */
   border-bottom: 3px dashed Green; /* Blue border on the bottom side */
-  border-left: 2px dashed blue;
+  border-left: 2px dashed Red;
   text-align: center;
   
   }
@@ -32,9 +32,7 @@ background-color: blue;
 <p>
   
 
-  I Always Prefer Good Angry Young Bird , it will be Chriping for Others Good Ness
-
-  So I always Like Angry Bird.
+Never Ever Trust any one Blindly unless you know them with Clarity.
 </p>
 </body>
 </html>
